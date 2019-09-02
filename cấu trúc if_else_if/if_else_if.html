@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thực hành cấu trúc if else if</title>
+</head>
+<body>
+    <script>
+        let id = prompt("nhập vào tài khoản:");
+        if (id == 'Admin'){
+            let password = prompt("Nhập vào mật khẩu:");
+            if (password == 'TheMaster') {
+                alert("Welcome");
+            } else if (password == null) {
+                alert("Canceld");
+            } else {
+                alert("Wrong password")
+            }
+        } else if (id == null) {
+            alert("Canceld");
+        } else {
+            alert("I don't know you");
+        }
+
+    </script>
+</body>
+</html>
