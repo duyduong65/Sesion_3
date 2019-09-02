@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c75bacd8-120a-4e31-8607-a621ec58a579" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/if_else_if.html" afterDir="false" />
-    </list>
+    <list default="true" id="c75bacd8-120a-4e31-8607-a621ec58a579" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567430242264</updated>
-      <workItem from="1567430244792" duration="460000" />
+      <workItem from="1567430244792" duration="690000" />
     </task>
     <servers />
   </component>
