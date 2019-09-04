@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>ex_6</title>
 </head>
 <body>
-$END$
+Nhập vào doanh số của tháng: <input type="text" id="inputHere">
+<button type="button" onclick="tinhtoan()">click!</button>
+
+<script>
+    function tinhtoan() {
+        let hoahong;
+        let doanhso = Number(document.getElementById('inputHere').value);
+        if (doanhso >= 500000000) {
+            hoahong = (doanhso*15)/100;
+        } else if (doanhso > 200000000 && doanhso <= 500000000){
+            hoahong = (doanhso*10)/100;
+        }
+        alert(hoahong);
+    }
+</script>
+
 </body>
 </html>

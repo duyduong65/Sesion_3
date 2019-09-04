@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>ex_3</title>
 </head>
 <body>
-$END$
+    <input id="inputNumbers" type="text">
+    <button type="button" onclick="checkNumbers()">Check!</button>
+
+     <script>
+         function checkNumbers() {
+             let numbers = document.getElementById('inputNumbers').value;
+             if (numbers > 0){
+                 alert("số này lớn hơn 0");
+             } else if (numbers < 0) {
+                 alert("số này nhỏ hơn 0");
+             } else {
+                 alert("số này bằng 0");
+             }
+         }
+     </script>
 </body>
 </html>

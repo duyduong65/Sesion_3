@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>ex7</title>
 </head>
 <body>
-$END$
+Nhập vào số phút gọi: <input type="text" id="sophutgoi">
+<button type="button" onclick="cuoctrongthang()">Click!</button>
+<script>
+    function cuoctrongthang() {
+        let dongiaA = 2300;
+        let dongiaB = 2000;
+        let thanhtoan;
+        let sophutgoi = +document.getElementById("sophutgoi").value;
+        if (sophutgoi >= 200) {
+            thanhtoan = sophutgoi * dongiaB;
+        } else {
+            thanhtoan = sophutgoi * dongiaA;
+        }
+        alert(thanhtoan);
+    }
+</script>
 </body>
 </html>

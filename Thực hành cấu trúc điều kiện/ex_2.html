@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>ex2</title>
 </head>
 <body>
-$END$
+<input type="text" id="inputOld">
+<button onclick="checkold()" type="button">Check</button>
+<script>
+    function checkold()
+    {
+        let old = document.getElementById('inputOld').value;
+        if (old >= 15) {
+            alert("đủ tuổi để vào lớp 10");
+        } else {
+            alert(old + " tuổi không đủ để vào lớp 10");
+        }
+    }
+</script>
 </body>
 </html>

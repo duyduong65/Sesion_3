@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>ex_5</title>
 </head>
 <body>
-$END$
+Nhập vào điểm bài kiểm tra: <input type="text" id="Score_1">
+Nhập vào điểm kiểm tra giữa kỳ: <input type="text" id="Score_2">
+Nhập vào điểm kiểm tra cuối kỳ: <input type="text" id="Score_3">
+<button type="button" onclick="xethocluc()">Check!</button>
+<script>
+    function xethocluc() {
+        let a = document.getElementById('Score_1').value;
+        let b = document.getElementById('Score_2').value;
+        let c = document.getElementById('Score_3').value;
+        a = Number(a);
+        b = Number(b);
+        c = Number(c);
+        let diemtongket = (a + (b * 2) + (c * 3)) / 6;
+
+        if (diemtongket > 8.5) {
+            alert("học lực giỏi");
+        } else if (diemtongket > 5.5 && diemtongket <= 8.5) {
+            alert("học lực khá");
+        } else {
+            alert("học lực trung bình yếu kém");
+        }
+    }
+</script>
+
 </body>
 </html>
