@@ -6,13 +6,59 @@
 </head>
 <body>
 <fieldset>
+    <legend>Final_PGM_App_Caculator</legend>
     <form>
         <table>
+
             <tr>
-                <td><input type="text" id="inputNumbers"></td>
+                <td colspan="4"><input type="text" id="inputNumbers"></td>
             </tr>
             <tr>
-                <td><input type="button" id="one" value="1" onclick="inputHere()"></td>
+                <td><input type="button" id="one" value="1" onclick="displayValue('1')"></td>
+                <td><input type="button" id="two" value="2" onclick="displayValue('2')"></td>
+                <td><input type="button" id="three" value="3" onclick="displayValue('3')"></td>
+                <td><input type="button" id="plus" value="+" onclick="displayValue('+')"></td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" id="four" value="4" onclick="displayValue('4')"> 4</button>
+                </td>
+                <td>
+                    <button type="button" id="five" value="5" onclick="displayValue('5')"> 5</button>
+                </td>
+                <td>
+                    <button type="button" id="six" value="6" onclick="displayValue('6')"> 6</button>
+                </td>
+                <td>
+                    <button type="button" id="subtraction" value="-" onclick="displayValue('-')"> -</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" id="seven" value="7" onclick="displayValue('7')"> 7</button>
+                </td>
+                <td>
+                    <button type="button" id="eight" value="8" onclick="displayValue('8')"> 8</button>
+                </td>
+                <td>
+                    <button type="button" id="nine" value="9" onclick="displayValue('9')"> 9</button>
+                </td>
+                <td>
+                    <button type="button" id="mutilplication" value="=" onclick="displayValue('*')"> *</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" id="equal" value="=" onclick="tinhtoan()"> =</button>
+                </td>
+                <td>
+                    <button type="button" id="zero" value="0" onclick="displayValue('0')"> 0</button>
+                <td>
+                    <button type="button" id="clear" onclick="del_1()"> C</button>
+                </td>
+                <td>
+                    <button type="button" id="division" value="/" onclick="displayValue('/')"> /</button>
+                </td>
             </tr>
 
         </table>
