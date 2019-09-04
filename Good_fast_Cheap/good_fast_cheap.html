@@ -5,8 +5,28 @@
     <title>good fast cheap</title>
 </head>
 <body>
-    <select name="selectOption" multiple>
-        <optio
-    </select>
+<form>
+    <input type="checkbox" id="good" onclick="MyFuntion()">good<br>
+    <input type="checkbox" id="fast" onclick="MyFuntion()">fast<br>
+    <input type="checkbox" id="cheap" onclick="MyFuntion()">cheap
+</form>
+<script>
+    function MyFuntion() {
+        let good = document.getElementById('good');
+        let fast = document.getElementById('fast');
+        let cheap = document.getElementById('cheap');
+
+        if (good.checked == true && fast.checked == true) {
+            document.getElementById('cheap').checked = false;
+        } else if (good.checked == true && cheap.checked == true) {
+            document.getElementById('fast').checked == false;
+
+        }
+
+    }
+
+
+</script>
+
 </body>
 </html>
