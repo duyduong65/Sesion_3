@@ -75,5 +75,14 @@ function bill() {
     }
     document.getElementById('powerNumber').value = bill;
 }
+function BillTax() {
+    let salary = document.getElementById('billTax').value;
+    salary = Number(salary);
+    let billSalary;
+    if (document.getElementById('option_1').selectedIndex) {
+        billSalary = salary + ((salary * 10) / 100);
+    }
+    document.getElementById('billTax').value = billSalary;
+}
 
 
