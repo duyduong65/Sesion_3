@@ -62,5 +62,18 @@ function checkEdge() {
         document.getElementById('CheckEdge').value = "fail";
     }
 }
+function bill() {
+    let powerNumber = document.getElementById('powerNumber').value;
+    powerNumber = Number(powerNumber);
+    let bill;
+    let dongia_1 = 1500;
+    let dongia_2 = 2500;
+    if (powerNumber > 500) {
+        bill = powerNumber * dongia_1;
+    } else {
+        bill = powerNumber * dongia_2;
+    }
+    document.getElementById('powerNumber').value = bill;
+}
 
 
