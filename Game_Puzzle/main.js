@@ -30,3 +30,11 @@ function click_1(val) {
     }
 
 }
+function CheckOut() {
+    let anh1 = document.getElementById('picture_1');
+    let anh2 = document.getElementById('picture_2');
+    let anh3 = document.getElementById('picture_3');
+    if((anh1.alt === "1" && anh2.alt === "2" && anh3.alt === "3")||(anh1.alt === '4' && anh2.alt === '5' && anh3.alt === '6')){
+        alert("Done");
+    }
+}
