@@ -5,28 +5,12 @@
     <title>good fast cheap</title>
 </head>
 <body>
-<form>
-    <input type="checkbox" id="good" onclick="MyFuntion()">good<br>
-    <input type="checkbox" id="fast" onclick="MyFuntion()">fast<br>
-    <input type="checkbox" id="cheap" onclick="MyFuntion()">cheap
-</form>
-<script>
-    function MyFuntion() {
-        let good = document.getElementById('good');
-        let fast = document.getElementById('fast');
-        let cheap = document.getElementById('cheap');
-
-        if (good.checked == true && fast.checked == true) {
-            document.getElementById('cheap').checked = false;
-        } else if (good.checked == true && cheap.checked == true) {
-            document.getElementById('fast').checked == false;
-
-        }
-
-    }
+    <input type="checkbox" id="good" onclick="changeChecked(this.value)">good<br>
+    <input type="checkbox" id="fast" onclick="changeChecked(this.value)">fast<br>
+    <input type="checkbox" id="cheap" onclick="changeChecked(this.value)">cheap
 
 
-</script>
 
 </body>
+<script src="main.js"> </script>
 </html>
