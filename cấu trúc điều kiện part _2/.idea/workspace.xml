@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc1c184d-7e1f-4647-b601-cd72fb68c1e6" name="Default Changelist" comment="" />
+    <list default="true" id="bc1c184d-7e1f-4647-b601-cd72fb68c1e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Ex_ 4,5,6,7,8,9,10,11,12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_4,5,6,7,8,9,10,11,12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -25,6 +30,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,8 +59,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567663241982</updated>
-      <workItem from="1567663246223" duration="1172000" />
+      <workItem from="1567663246223" duration="2345000" />
     </task>
+    <task id="LOCAL-00001" summary="final ex_3">
+      <created>1567664619186</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567664619186</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,5 +84,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final ex_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="final ex_3" />
   </component>
 </project>
