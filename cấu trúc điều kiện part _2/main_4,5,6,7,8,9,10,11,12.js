@@ -62,6 +62,7 @@ function checkEdge() {
         document.getElementById('CheckEdge').value = "fail";
     }
 }
+
 function bill() {
     let powerNumber = document.getElementById('powerNumber').value;
     powerNumber = Number(powerNumber);
@@ -75,12 +76,22 @@ function bill() {
     }
     document.getElementById('powerNumber').value = bill;
 }
+
 function BillTax() {
     let salary = document.getElementById('billTax').value;
     salary = Number(salary);
     let billSalary;
-    if (document.getElementById('option_1').selectedIndex) {
-        billSalary = salary + ((salary * 10) / 100);
+    let amout = document.getElementById('option_1').value;
+    switch (amout) {
+        case '0':
+            billSalary = salary - ((salary * 5) / 100);
+            break;
+        case '1':
+            billSalary = salary - ((salary * 10) / 100);
+            break;
+        case '2':
+            billSalary = salary - ((salary * 20) / 100);
+            break;
     }
     document.getElementById('billTax').value = billSalary;
 }

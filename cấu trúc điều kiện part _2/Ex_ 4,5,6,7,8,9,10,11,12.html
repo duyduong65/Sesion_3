@@ -58,11 +58,11 @@
 <fieldset>
     <legend>tính thuế thu nhập cá nhân</legend>
     <input id="billTax" type="text">
-    <button type="button" onclick="BillTax">Result</button>
+    <button type="button" onclick="BillTax()">Result</button>
     <select id="option_1">
-        <option id="enough3month">Đủ 3 tháng</option>
-        <option id="notenough3month">Không đủ 3 tháng</option>
-        <option id="notLaborContract">Không có hợp đồng</option>
+        <option id="enough3month" value="0" selected>Đủ 3 tháng</option>
+        <option id="notenough3month" value="1" >Không đủ 3 tháng</option>
+        <option id="notLaborContract"value="2">Không có hợp đồng</option>
     </select>
 </fieldset>
 </body>

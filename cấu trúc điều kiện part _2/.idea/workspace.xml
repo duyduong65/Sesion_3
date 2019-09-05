@@ -59,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567663241982</updated>
-      <workItem from="1567663246223" duration="9151000" />
+      <workItem from="1567663246223" duration="12844000" />
     </task>
     <task id="LOCAL-00001" summary="final ex_3">
       <created>1567664619186</created>
@@ -89,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567669946100</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ex_11">
+      <created>1567672571725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567672571725</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +118,7 @@
     <MESSAGE value="add ex_5" />
     <MESSAGE value="add ex 6,7,8,9" />
     <MESSAGE value="add ex 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ex 10" />
+    <MESSAGE value="add ex_11" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ex_11" />
   </component>
 </project>
