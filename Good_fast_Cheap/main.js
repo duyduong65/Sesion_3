@@ -9,8 +9,6 @@ function changeChecked(eval) {
                 cheap.checked = false;
             } else if (fast.checked && cheap.checked) {
                 good.checked = false;
-            } else if (good.checked && cheap.checked) {
-                fast.checked = false;
             }
             break;
         case "fast":
@@ -18,8 +16,6 @@ function changeChecked(eval) {
                 good.checked = false;
             } else if (cheap.checked && good.checked) {
                 fast.checked = false;
-            } else if (good.checked && fast.checked) {
-                cheap.checked = false;
             }
             break;
         case "cheap" :
@@ -27,8 +23,6 @@ function changeChecked(eval) {
                 fast.checked = false;
             } else if (cheap.checked && fast.checked) {
                 good.checked = false;
-            } else if (good.checked && fast.checked) {
-                cheap.checked = false;
             }
             break;
     }
